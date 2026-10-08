@@ -1705,7 +1705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6981986e7eb42ee80ec02bcd3aa576, type: 3}
   m_Name: XRBodyTrackingFeature Android
   m_EditorClassIdentifier: Google.XR.Extensions::Google.XR.Extensions.XRBodyTrackingFeature
-  m_enabled: 1
+  m_enabled: 0
   nameUi: 'Android XR (Extensions): Human Body (Experimental*)'
   version: 1.0.0
   featureIdInternal: com.google.xr.extensions.body_tracking
