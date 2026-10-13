@@ -937,7 +937,7 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!43 &511073249
+--- !u!43 &559778790
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1982,6 +1982,7 @@ GameObject:
   - component: {fileID: 2062973733}
   - component: {fileID: 2062973732}
   - component: {fileID: 2062973731}
+  - component: {fileID: 2062973736}
   m_Layer: 0
   m_Name: CurvedFeed
   m_TagString: Untagged
@@ -2028,7 +2029,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062973729}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71d067984c7e9b34684c62b703d2de49, type: 3}
   m_Name: 
@@ -2116,7 +2117,29 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062973729}
-  m_Mesh: {fileID: 511073249}
+  m_Mesh: {fileID: 559778790}
+--- !u!114 &2062973736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062973729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1303c1fd9916aea46b9d6bc8fcca7953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GazeMoveQuad_2
+  referenceCamera: {fileID: 191412723}
+  inputActions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  distance: 1
+  maxHorizontalAngle: 25
+  maxVerticalAngle: 25
+  stickMoveSpeed: 0.2
+  maxHorizontalOffset: 0.3
+  maxVerticalOffset: 0.2
+  stickDeadzone: 0.2
+  smoothTime: 0.05
 --- !u!1 &2078936730
 GameObject:
   m_ObjectHideFlags: 0
